@@ -1,0 +1,119 @@
+body {
+    background-image: linear-gradient(#007BFF, #FFB700);
+    text-align: center; 
+  }
+  
+  #check-btn {
+    color: white;
+  }
+  
+  h1 {
+    color: white;
+    text-align: center;
+    font-size: 40;
+  }
+  
+  button {
+    width: 100%;
+    height: 80px;
+    border-radius: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color:darkblue;
+    color: white;
+    font-size: 24px;
+    border: none;
+    text-align: center;
+    line-height: 80px;
+    transition: background-color 0.5s ease; /* Smooth transition for background color */
+  }
+  
+  input#text-input {
+    width: 60%; /* Adjust the width as needed for your design */
+    padding: 12px 20px; /* Ample padding for better text visibility and comfort */
+    margin: 10px auto; /* Centering the input field with auto margins and some space around it */
+    display: block; /* Makes the input block level to take full width of its parent */
+    border: 2px solid #ccc; /* Subtle border, you can choose a color that fits your design */
+    border-radius: 25px; /* Gives the input field rounded corners for a curvier look */
+    font-size: 1.25rem; /* Larger font size for better readability */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Subtle shadow for a modern look */
+    transition: border-color 0.3s, box-shadow 0.3s; /* Smooth transition for focus effects */
+
+    /* Ensure the input text is vertically centered and has space from the border */
+    line-height: 1.5; 
+}
+
+input#text-input:focus {
+    border-color: #4A90E2; /* Highlight color when focused */
+    box-shadow: 0 0 8px rgba(74, 144, 226, 0.5); /* More pronounced shadow when focused */
+    outline: none; /* Removes the default focus outline */
+}
+
+  
+  
+  input, button, #result {
+    margin-top: 20px; /* Adds a top margin for spacing */
+    display: block; /* Makes elements block to take full width */
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+    button {
+    width: 400px; /* Sets a fixed width */
+    }
+  
+  #result {
+    width: 100%; /* Full width to fit content area */
+    height: 50px; /* Set a fixed height if you want */
+    color: white;
+    font-weight: heavy;
+    font-size: 36;
+  }
+
+  #gif-container {
+    display: flex; /* Uses flexbox to center the image */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 28,125vw; /* Smaller height based on width to maintain a 16:9 aspect ratio */
+    width: 50vw; 
+    max-width: 100%; /* Ensure it does not exceed the viewport width */
+    margin: auto; /* Additional centering for margin auto */
+    position: relative; /* Ensures the position is relative to its normal position */
+    background: transparent;
+    overflow: hidden; /* Clips any overflowing content */
+}
+
+#gif-display {
+    width: 100%; /* Fills the entire width of the container */
+    height: 100%; /* Fills the entire height of the container */
+    object-fit: cover; /* Ensures the image covers the area, cropping as needed */
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #f2f2f2; /* Light grey background */
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  font-family: Arial, sans-serif; /* Ensures font consistency */
+}
+
+footer a {
+  color: #4A90E2; /* Sets the color of the link */
+  text-decoration: none; /* Removes underline from links */
+}
+
+footer a:hover {
+  text-decoration: underline; /* Adds underline on hover for better user interaction */
+}
+
+
+
+
+  
+  
